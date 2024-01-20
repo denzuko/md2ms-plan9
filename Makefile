@@ -17,5 +17,5 @@ install:
 	@gzip ${DESTDIR}${MANPREFIX}/md2ms.1
 
 clean uninstall:
-	rm -f	${DESTDIR}${PREFIX}/bin/md2ms
-	rm -f	${DESTDIR}${MANPREFIX}/man1/md2ms.1
+	rm -f	${DESTDIR}${BIN}/md2ms
+	rm -f	${DESTDIR}${MANPREFIX}/md2ms.1
